@@ -14,14 +14,15 @@ function handleClick(e) {
 function greet(timeString){
   let time = timeString.split(':');
   console.log(time[0]);
+  let hour = parseInt(time[0]);
 
-  if (timeString < 12){
-    time = 'Good Morning'
+  if (hour < 12){
+    return 'Good Morning'
   }
-  else if () {
-
+  else if (hour >= 12 && hour <= 17 ) {
+    return 'Good Afternoon'
   }
-  else{
-
+  else {
+    return "Good Evening"
   }
-}
+};
