@@ -26,3 +26,6 @@ function greet(timeString){
     return "Good Evening"
   }
 };
+
+function displayMessage(string)
+  
