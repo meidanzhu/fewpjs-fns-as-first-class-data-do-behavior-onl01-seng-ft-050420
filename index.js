@@ -11,3 +11,17 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
+function greet(timeString){
+  let time = timeString.split(':');
+  console.log(time[0]);
+
+  if (timeString < 12){
+    time = 'Good Morning'
+  }
+  else if () {
+
+  }
+  else{
+
+  }
+}
